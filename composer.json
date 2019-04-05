@@ -1,0 +1,27 @@
+{
+    "name": "patrik.urik/to-roman-number-by-pu-review06",
+    "description": "convert arabic number to roman number",
+    "keywords": [
+      "RomanNumerals"
+    ],
+    "license": "MIT",
+    "type": "composer-plugin",
+    "authors": [
+      {
+        "name": "Urik",
+        "email": "patrik.urik@ringier.sk",
+        "role": "Developer"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.4",
+      "ext-pdo": "*",
+      "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Convert\": "src/"
+      }
+    }
+  }
